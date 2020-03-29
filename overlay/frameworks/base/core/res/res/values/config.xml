@@ -567,7 +567,10 @@
     <!-- If this is true, device supports Sustained Performance Mode. -->
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
 
-     <!-- Whether device ignores the RSSNR signal implementation -->
+    <!-- Enable Smart charging. -->
+    <bool name="config_deviceSupportSmartCharging">true</bool>
+
+    <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
     
     <!-- Whether to artificially interpret all signal strengths as
